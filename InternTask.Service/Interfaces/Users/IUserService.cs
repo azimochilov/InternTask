@@ -1,4 +1,5 @@
-﻿using InternTask.Service.DTOs.Users;
+﻿using InternTask.Domain.Entities;
+using InternTask.Service.DTOs.Users;
 
 namespace InternTask.Service.Interfaces.Users;
 public interface IUserService
@@ -7,5 +8,6 @@ public interface IUserService
     ValueTask<UserResultDto> ModifyAsync(UserUpdateDto dto);
     ValueTask<bool> RemoveAsync(long id);
     ValueTask<UserResultDto> RetrieveByIdAsync(long id);
-    ValueTask<IEnumerable<UserResultDto>> RetrieveAllAsync();
+    ValueTask<IEnumerable<UserResultDto>> RetrieveAllAsync(string search = null);
+    ValueTask<User> RetrieveByEmailForAuthAsync(string email);
 }
