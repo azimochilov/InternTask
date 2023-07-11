@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="Mappers\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
@@ -17,6 +16,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InternTask.Domain\InternTask.Domain.csproj" />
   </ItemGroup>
 
 </Project>
