@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternTask.Domain", "Intern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternTask.Data", "InternTask.Data\InternTask.Data.csproj", "{BE5CA869-27B0-41CA-B39A-A6D95E855F4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternTask.Service", "InternTask.Service\InternTask.Service.csproj", "{7B68C9A5-A605-4B47-8E6A-6AC334EBEE6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE5CA869-27B0-41CA-B39A-A6D95E855F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5CA869-27B0-41CA-B39A-A6D95E855F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5CA869-27B0-41CA-B39A-A6D95E855F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B68C9A5-A605-4B47-8E6A-6AC334EBEE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B68C9A5-A605-4B47-8E6A-6AC334EBEE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B68C9A5-A605-4B47-8E6A-6AC334EBEE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B68C9A5-A605-4B47-8E6A-6AC334EBEE6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
