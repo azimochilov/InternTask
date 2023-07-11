@@ -4,6 +4,8 @@ using InternTask.Service.Exceptions;
 using InternTask.Service.Interfaces.Authorization;
 using InternTask.Service.Interfaces.Users;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
